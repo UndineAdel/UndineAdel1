@@ -1,0 +1,1747 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700&display=swap');
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: 'Open Sans', sans-serif;
+}
+/*   font-family: 'Open Sans', sans-serif;    */
+
+body {
+    
+    margin: 0;
+    padding: 0;
+    
+}
+
+/* Navigation/ Header */
+/* Navigation/ Header */
+/* Navigation/ Header */
+/* Navigation/ Header */
+
+header {
+    height: auto;
+}
+
+#logo {
+    padding: 6.5% 4%;
+    color: #fff;
+    text-decoration: none;
+    display: inline-block;
+    width: 80vw;
+    height: 20vw;
+    position: relative;
+    /* transform: rotate(270deg); */
+}
+
+#logo div {
+    /* position: absolute;
+    bottom: -.2vw;
+    left: 0;
+    opacity: .5; */
+    background-image: url(../../assets/images/grayLogo.png);
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 100%;
+}
+
+nav {
+    position: fixed;
+    top: 0;
+    left: 0;
+    transform: translateX(-100%);
+    width: 100vw;
+    height: 100vh;
+    background-color: rgb(255, 255, 255);
+    transition: all .3s ease-out;
+    opacity: .5;
+    padding-top: 15vw;
+}
+
+.nav-active nav {
+    transform: translateX(0);
+    opacity: 1;
+}
+
+.nav-active #menu-btn {
+    opacity: 0;
+}
+
+#menu-btn {
+    transition: opacity .3s ease-out;
+}
+
+#menu-btn,
+#menu-btn-close {
+    position: fixed;
+    right: 0;
+    top: 0;
+    width: 20vw;
+    height: 20vw;
+    background-color: #191C27;
+    color: #fff;
+    display: inline-block;
+}
+
+#menu-btn img {
+    display: inline-block;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-size: contain;
+    width: 50%;
+}
+
+#menu-btn-close img {
+    width: 10vw;
+    height: 10vw;
+    display: inline-block;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+
+
+
+
+/*mobile menu hidden by default*/
+
+#menu-header {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 80vw;
+    height: 20vw;
+    background-color: #ffffff;
+    line-height: 15vw;
+    padding-left: 42.5vw;
+    font-size: 5vw;
+    text-transform: uppercase;
+    color: rgb(0, 0, 0);
+}
+
+
+/* style for nav items */
+
+nav ul {
+    margin: 0;
+    padding: 0;
+}
+
+nav li {
+    display: block;
+    list-style-type: none;
+    border-bottom: 2px solid #191C27;
+    width: 75%;
+    margin: 0 auto;
+    text-align: center;
+}
+nav li:active {
+    background-color: #921C1C;
+    
+}
+
+nav li a {
+    display: block;
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+    padding: 5vw;
+
+}
+
+nav li a:active {
+    color: #fff;
+}
+
+
+
+/* END of Navigation/ Header */
+/* END of Navigation/ Header */
+
+/*Footer*/
+/*Footer*/
+
+.footer-sectionone {
+    height: auto;
+    width: 100%;
+    text-align: center;
+
+}
+
+
+.footer-icon {
+    width: 5vh;
+    height: 5vh;
+}
+
+
+.footer-line {
+    border-top: black 1px solid;
+    width: 30%;
+    margin: 10% 0 10% 35%;
+
+    height: 1px;
+}
+
+.footer-info h2 {
+
+    padding: 5% 0 5% 0;
+}
+
+.footer-sectionone h2 {
+
+    color: #921C1C;
+
+}
+
+.footer-instagram {
+    display: flex;
+    justify-content: center;
+    padding: 2% 0 5% 0;
+}
+
+.footer-fbtext {
+    padding: 0% 0 0 2%;
+    margin: auto 0 auto 0;
+}
+
+.footer-igtext {
+    padding: 0% 0 0 2%;
+    margin: auto 0 auto 0;
+}
+
+.footer-facebook {
+    display: flex;
+    justify-content: center;
+}
+
+.footer-social-media h2 {
+    padding: 0 0 5% 0;
+}
+
+.footer-services {
+    display: none;
+}
+
+footer a {
+    text-decoration: none;
+    color: black;
+}
+
+/*    Index     */
+/*    Index     */
+/*    Index     */
+/*    Index     */
+
+.index-sticky-menu {
+    position: fixed;
+}
+
+.index-hide-logo {
+    display: none;
+}
+
+.index-section-background {
+    background-image: url(../images/vynas.jpg);
+    background-size: cover;
+    height: 100vh;
+    background-position: center;
+    display: grid;
+    place-content: center;
+}
+
+.index-text-box {
+    color: rgb(255, 255, 255);
+    padding: 5%;
+
+}
+
+.index-header {
+    font-size: 1.5rem;
+    margin: 0 0 5% 0;
+}
+
+.index-paragrapth {
+    font-size: 0.9rem;
+    padding: 0 0 0 30%;
+}
+
+div.index-paragrapth p::before {
+    content: '"';
+    position: absolute;
+    top: 46%;
+    left: 30%;
+    font-size: 4rem;
+    color: rgba(221, 221, 221, 0.1);
+    font-weight: 900;
+}
+
+
+
+
+/*    About     */
+/*    About     */
+/*    About     */
+/*    About     */
+
+.about-main-grid {
+    display: grid;
+    grid-template-columns: 100%;
+    grid-template-areas:
+    'about-sec-one'
+    'about-sec-two'
+    'about-sec-three'
+    'about-sec-four'
+    'about-sec-five'
+    'about-sec-six'
+    'about-sec-seven'
+    ;
+}
+
+.about-section-box {
+    width: 100%;
+    height: 50vh;
+}
+
+.about-section-image-one {
+    background-image: url(../images/svalegaardenHouse.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+.about-section-image-two {
+    background-image: url(../images/aboutTables.jpg);
+    background-size: cover;
+    background-position: center;
+    display: none;
+}
+
+.about-section-image-three {
+    background-image: url(../images/aboutFancyTables.jpg);
+    background-size: cover;
+    background-position: center;
+    display: none;
+}
+
+.about-section-image-four {
+    background-image: url(../images/aboutPeople.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+.about-section-image-five {
+    background-image: url(../images/aboutChop.jpeg);
+    background-size: cover;
+    background-position: center;
+    display: none;
+}
+
+.about-article-box {
+    padding: 15%;
+}
+
+.about-section-one {
+    grid-area: about-sec-one;
+}
+
+.about-section-two {
+    grid-area: about-sec-two;
+}
+
+.about-section-three {
+    grid-area: about-sec-three;
+}
+
+.about-section-four {
+    grid-area: about-sec-four;
+}
+
+.about-section-five {
+    grid-area: about-sec-five;
+}
+
+.about-section-six {
+    grid-area: about-sec-six;
+}
+
+.about-section-seven {
+    grid-area: about-sec-seven;
+}
+
+.about-header-text {
+    font-size: 1.5rem;
+    padding: 0 0 5% 0;
+}
+
+.about-h2-font {
+    font-size: 1.2rem;
+    line-height: 1.6;
+    color: rgb(51, 51, 51);
+
+}
+
+.about-paragraph {
+    font-size: 0.9rem;
+    line-height: 1.6;
+    padding: 5% 0 5% 0;
+}
+
+/*    Menu      */
+/*    Menu      */
+/*    Menu      */
+/*    Menu      */
+
+.menu-main-grid {
+    width: 100%;
+    grid-template-columns: 100%;
+    grid-template-areas: 
+    'menus-image-one'
+    'menus-image-two'
+    'menus-image-three'
+    'menus-image-four'
+    ;
+}
+
+
+.menus-boxsize {
+    height: 22vh;
+    background-size: cover;
+    background-position: center;
+    color: white;
+    display: grid;
+    place-items: end start;
+}
+
+.menus-image-one {
+    background-image: url(../images/springv2.jpg);
+}
+
+.menus-image-two {
+    background-image: url(../images/summerv2.jpg);
+}
+
+.menus-image-three {
+    background-image: url(../images/autumnv2.jpg);
+}
+
+.menus-image-four {
+    background-image: url(../images/winter.jpg);
+}
+
+.menus-text-box {
+    font-size: 1.5rem;
+    padding: 0 0 5% 5%;
+}
+
+.menus-anchor {
+    text-decoration: none;
+}
+
+
+
+
+/*    Spring    */
+/*    Spring    */
+/*    Spring    */
+/*    Spring    */
+
+.spring-background{
+    background-image:url(../images/springv2.jpg);
+    background-repeat: no-repeat;
+    background-size:cover;
+    padding: 20px;
+    width: 100%;
+}
+
+/*    Summer    */
+/*    Summer    */
+/*    Summer    */
+/*    Summer    */
+
+.summer-background{
+    background-image:url(../images/summerv2.jpg);
+    background-repeat: no-repeat;
+    background-size:cover;
+    padding: 20px;
+    width: 100%;
+}
+
+/*    Autumn    */
+/*    Autumn    */
+/*    Autumn    */
+/*    Autumn    */
+
+.autumn-background{
+    background-image:url(../images/autumnv2.jpg);
+    background-repeat: no-repeat;
+    background-size:cover;
+    padding: 20px;
+    width: 100%;
+}
+
+/*    Winter    */
+/*    Winter    */
+/*    Winter    */
+/*    Winter    */
+
+.winter-background{
+    background-image:url(../images/winter.jpg);
+    background-repeat: no-repeat;
+    background-size:cover;
+    padding: 20px;
+    width: 100%;
+}
+
+/*    All seasons    */
+/*    All seasons    */
+/*    All seasons    */
+/*    All seasons    */
+
+.season-box{
+    background-color:white;
+    margin: 8px;
+    
+}
+
+.season-text{
+    color:black;
+    padding: 30px 30px;
+    font-size: 13px;
+}
+
+.season-text h1{
+    font-size: 18px;
+    padding-bottom: 10px;
+}
+
+.season-text h2{
+    font-size: 14px;
+    border-top: 0.5px solid black;
+    padding-top: 10px;
+    color:rgb(80,80,80);
+}
+
+.season-text p{
+    padding: 16px;
+}
+
+.season-one, .season-two, .season-three{
+    margin-top: 5px;
+}
+
+.line{
+    border-bottom: 0.5px solid lightgrey;
+    border-top: 0.5px solid lightgrey;
+}
+
+
+/*    Events    */
+/*    Events    */
+/*    Events    */
+/*    Events    */
+
+.events-boxsize {
+    height: 50vh;
+    background-size: cover;
+    background-position: center;
+    color: white;
+    display: grid;
+    place-items: end start;
+}
+
+.events-image-one {
+    background-image: url(../images/weddingv2.jpg);
+}
+
+.events-image-two {
+    background-image: url(../images/confirmation.jpg);
+}
+
+
+/*    Confirmation     */
+/*    Confirmation     */
+/*    Confirmation     */
+/*    Confirmation     */
+
+.confirmation-background{
+    background-image:url(../images/confirmation.jpg);
+    background-repeat: no-repeat;
+    background-size:cover;
+    padding: 20px;
+    width: 100%;
+}
+
+/*    Wedding   */
+/*    Wedding   */
+/*    Wedding   */
+/*    Wedding   */
+
+.wedding-background{
+    background-image:url(../images/weddingv2.jpg);
+    background-repeat: no-repeat;
+    background-size:cover;
+    padding: 20px;
+    width: 100%;
+}
+
+
+/*    Friday    */
+/*    Friday    */
+/*    Friday    */
+/*    Friday    */
+
+
+.eatatmest-image-one {
+    height: 50vh;
+    background-image: url(../images/spiseHostPeople.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+.eatatmest-sectionone {
+    
+    background-color: #191C27;
+}
+
+.eatatmest-articleone {
+    padding: 15% 15% 0 15%;
+    background-color: white;
+}
+
+.eatatmest-articleone h1 {
+    font-size: 2rem;
+    line-height: 1.4;
+}
+
+
+.eatatmest-articletwo h2 {
+    font-size: 1.4rem;
+    line-height: 1.2;
+    color: #921C1C;
+    text-align: right;
+}
+
+.eatatmest-articletwo {
+    padding: 0 15% 5% 15%;
+    background-color: white;
+    margin-bottom: 5%;
+}
+
+.eatatmest-articlethree {
+    padding: 5% 15% 5% 15%;
+    background-color: white;
+    margin-bottom: 5%;
+}
+
+.eatatmest-articlethree h3, p {
+    padding: 5% 0;
+}
+
+.eatatmest-image-two {
+    height: 50vh;
+    background-image: url(../images/spiseHostSteak.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+.eatatmest-section-form {
+    background-color: #191C27;
+}
+
+.eatatmest-section-form h4 {
+    color: #921C1C;
+    font-size: 2rem;
+    text-align: center;
+    font-weight: 300;
+    padding: 5% 0 10% 0;
+}
+
+.eatatmest-section-form form {
+    width: 100%;
+    text-align: center;
+}
+
+.eatatmest-section-form form input {
+    width: 70%;
+    height: 5vh;
+    text-align: center;
+    font-size: 1rem;
+    margin-bottom: 15%;
+    background-color: #191C27;
+    outline: none;
+    border: none;
+    border-bottom: 2px white solid;
+    color: white;
+}
+
+.eatatmest-section-form form input::placeholder {
+    color: white;
+}
+
+.eatatmest-section-form form input:focus::placeholder {
+    opacity: 0;
+}
+
+.eatatmest-section-form form input[type="submit"] {
+    width: 34%;
+    border: 2px solid white;
+    background-color: white;
+    color: #191C27;
+    border-radius: 20px;
+    height: 50px;
+}
+
+.eatatmest-section-form form input[type="reset"] {
+    width: 34%;
+    border: 2px solid white;
+    background-color: #191C27;
+    color: white;
+    border-radius: 20px;
+    margin-left: 2%;
+    height: 50px;
+}
+
+
+
+/*    Contact   */
+/*    Contact   */
+/*    Contact   */
+/*    Contact   */
+
+/*adress*/
+
+.contacts_info{
+    text-align: center;
+}
+
+.contacts_info h1{
+    font-size: 40px;
+    margin-bottom: 20px;
+}
+
+.map{
+    margin-top: 30px;
+    margin-right: 20px;
+    width: 100%;
+    height: 40vh;
+}
+
+/*form*/
+
+.form{
+    background-color: #191C27;
+    padding: 20px;
+    width: 100%;
+}
+
+.askyou_form{
+    background-color:white;
+    margin: 8px;
+}
+
+.askyou_text{
+    color:black;
+    padding: 30px 30px;
+    font-size: 13px;
+    text-align: center;
+}
+
+.askyou_form h2{
+    font-size: 35px;
+}
+
+.form form input[type="submit"] {
+    width: 34%;
+    border: 2px solid white;
+    background-color: #191C27;
+    color: white;
+    border-radius: 20px;
+    height: 50px;
+}
+
+.form form input[type="reset"] {
+    width: 34%;
+    border: 2px solid #191C27;
+    background-color: white;
+    color: #191C27;
+    border-radius: 20px;
+    margin-left: 2%;
+    height: 50px;
+}
+
+.fill{
+    height: 40vh;
+    margin-top: 25px;
+}
+
+input[type="text"]{
+    width: 100%;
+    height: 80%;
+    background-color: #f0f0f0;
+    text-align: center;
+    font-size: 15px;
+    border-style: none;
+}
+
+input[type="email"]{
+    width: 100%;
+    height: 10%;
+    background-color: #f0f0f0;
+    text-align: center;
+    font-size: 15px;
+    border-style: none;
+    
+}
+
+textarea {
+    width: 100%;
+    height: 20vh;
+    background-color: #f0f0f0;
+    font-size: 15px;
+    border-style: none;
+    resize: none;
+}
+
+
+/*=========================================================*/
+/*=========================================================*/
+/*=========================================================*/
+/*=========================================================*/
+/*=========================================================*/
+
+@media screen and (min-width: 768px) and (max-width: 1023px) {
+
+    /* Navigation/ Header */
+    /* Navigation/ Header */
+    /* Navigation/ Header */
+    /* Navigation/ Header */
+
+    header {
+        height: 100px;
+    }
+    
+    /* hide menu button on all other devices than mobile */
+    #menu-btn {
+        display: none;
+    }
+    /* make sure text-sizes don't explode on larger screens */
+    body { font-size: 14px; }
+
+
+    /* logo gets a fixed size from here on */
+    #logo {
+        width: 200px;
+        height: 100px;
+        padding: 40px 10px;
+    }
+
+    
+
+    /* navigation for tablet and upwards */
+    nav {
+        position: fixed;
+        top: 0;
+        left: 300px;
+        transform: translateX(0);
+        width: calc(100vw - 300px);
+        height: auto;
+        background-color: #fff;
+        transition: none;
+        opacity: 1;
+        padding-top: 0;
+    }
+	/* set navigation to be displayed as I want on non-mobile */
+    nav ul {
+        margin: 0;
+        padding: 0;
+        height: 100px;
+    }
+
+    nav li {
+        display: inline-block;
+        list-style-type: none;
+        border-bottom: none;
+        width: 18%;
+        height: 100px;
+    }
+
+    nav li a {
+        display: inline-block;
+        text-decoration: none;
+        color: #191C27;
+        padding: 37.5px 30px;
+        height: 100px;
+    }
+	/* hover effect on nav item */
+    nav li a:hover {
+        background-color: #921C1C;
+
+    }
+
+    .active-nav-a {
+        background-color: #191C27;
+        color: white;
+    }
+	/* hide mobile menu-stuff on non-mobile */
+    #menu-btn-close,
+    #menu-header {
+        display: none;
+    }
+
+    /* END of Navigation/ Header*/
+    /* END of Navigation/ Header*/
+
+    /*footer*/
+    .footer-sectionone {
+        display: flex;
+    }
+
+    .footer-info {
+        width: 50%;
+        height: auto;
+    }
+
+    .footer-social-media {
+        width: 50%;
+        height: auto;
+    }
+
+    .footer-social-media h2 {
+        padding: 5% 0 0 0;
+    }
+
+    .footer-line {
+        border: none;
+    }
+
+    .footer-icon {
+        height: 3vh;
+        width: 3vh;
+    }
+
+    .footer-iconpair {
+        padding-top: 5%;
+
+    }
+
+    /*End of footer*/
+
+
+    /*    Index     */
+    /*    Index     */
+    /*    Index     */
+    /*    Index     */
+
+    .index-sticky-menu {
+        position: initial;
+    }
+    
+    .index-hide-logo {
+        display: block;
+    }
+    
+    .index-section-background {
+        background-image: url(../images/vynas.jpg);
+        background-size: cover;
+        background-repeat: no-repeat;
+        height: calc(100vh - 100px);
+        background-position: center;
+        display: block;
+    }
+    
+    .index-text-box {
+        color: rgb(255, 255, 255);
+        padding: 5%;
+        position: absolute;
+        bottom: 15%;
+    }
+    
+    .index-header {
+        font-size: 3rem;
+        margin: 0 0 5% 0;
+    }
+    
+    .index-paragrapth {
+        font-size: 1.8rem;
+        padding: 0 0 0 10%;
+    }
+    
+    div.index-paragrapth p::before {
+        content: '';
+    }
+
+
+    /*    About     */
+    /*    About     */
+    /*    About     */
+    /*    About     */
+
+
+
+    /*    Menu      */
+    /*    Menu      */
+    /*    Menu      */
+    /*    Menu      */
+
+
+
+    /*    Spring    */
+    /*    Spring    */
+    /*    Spring    */
+    /*    Spring    */
+
+
+
+    /*    Summer    */
+    /*    Summer    */
+    /*    Summer    */
+    /*    Summer    */
+
+
+
+    /*    Autumn    */
+    /*    Autumn    */
+    /*    Autumn    */
+    /*    Autumn    */
+
+
+
+    /*    Winter    */
+    /*    Winter    */
+    /*    Winter    */
+    /*    Winter    */
+
+
+
+    /*    Events    */
+    /*    Events    */
+    /*    Events    */
+    /*    Events    */
+
+
+
+    /*    Confirmation     */
+    /*    Confirmation     */
+    /*    Confirmation     */
+    /*    Confirmation     */
+
+
+
+    .confirmation-background{
+        background-image:url(../images/confirmation.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
+        padding: 5% 30%;
+        width: 100%;
+    }
+
+
+    /*    Wedding   */
+    /*    Wedding   */
+    /*    Wedding   */
+    /*    Wedding   */
+
+    .wedding-background{
+        background-image:url(../images/weddingv2.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
+        padding: 5% 20%;
+        width: 100%;
+    }
+
+
+
+    /*    Friday    */
+    /*    Friday    */
+    /*    Friday    */
+    /*    Friday    */
+
+
+
+    /*    Contact   */
+    /*    Contact   */
+    /*    Contact   */
+    /*    Contact   */
+
+
+}
+
+/*=========================================================*/
+/*=========================================================*/
+/*=========================================================*/
+/*=========================================================*/
+/*=========================================================*/
+
+@media screen and (min-width: 1024px) {
+
+    header {
+        height: 100px;
+        background-color: white;
+        
+    }
+    
+    /* hide menu button on all other devices than mobile */
+    #menu-btn {
+        display: none;
+    }
+    /* make sure text-sizes don't explode on larger screens */
+    body { 
+        font-size: 14px;
+        background-color: #191C27;
+    }
+
+
+    /* logo gets a fixed size from here on */
+    #logo {
+        width: 200px;
+        height: 100px;
+        padding: 40px 10px;
+    }
+
+    
+
+    /* navigation for tablet and upwards */
+    nav {
+        position: fixed;
+        top: 0;
+        left: 300px;
+        transform: translateX(0);
+        width: calc(100vw - 300px);
+        height: auto;
+        background-color: #fff;
+        transition: none;
+        opacity: 1;
+        padding-top: 0;
+    }
+	/* set navigation to be displayed as I want on non-mobile */
+    nav ul {
+        margin: 0;
+        padding: 0;
+        height: 100px;
+    }
+
+    nav li {
+        display: inline-block;
+        list-style-type: none;
+        border-bottom: none;
+        width: 18%;
+        height: 100px;
+    }
+
+    nav li a {
+        display: inline-block;
+        text-decoration: none;
+        color: #191C27;
+        padding: 37.5px 30px;
+        height: 100px;
+    }
+	/* hover effect on nav item */
+    nav li a:hover {
+        background-color: #921C1C;
+        color: white;
+
+    }
+
+    .active-nav-a {
+        background-color: #191C27;
+        color: white;
+    }
+
+	/* hide mobile menu-stuff on non-mobile */
+    #menu-btn-close,
+    #menu-header {
+        display: none;
+    }
+
+    footer {
+        background-color: white;
+        margin-top: 5%;
+    }
+
+    /* END of Navigation/ Header*/
+    /* END of Navigation/ Header*/
+
+    /*footer*/
+
+    .footer-fbtext {
+        font-size: 20px;
+    }
+    .footer-igtext {
+        font-size:20px;
+    }
+    .footer-sectionone {
+        display: flex;
+    }
+
+    .footer-info {
+        width: 50%;
+        height: auto;
+
+    }
+    .footer-info li{
+       font-size: 20px;
+
+    }
+    .footer-social-media {
+        width: 50%;
+        height: auto;
+    }
+
+    .footer-social-media h2 {
+        padding: 5% 0 0 0;
+    }
+
+    .footer-line {
+        border: none;
+    }
+
+    .footer-icon {
+        height: 5vh;
+        width: 5vh;
+    }
+
+    .footer-iconpair {
+        padding-top: 5%;
+
+    }
+
+    .footer-services {
+        display: block;
+        list-style-type: none;
+        width: 50%;
+    }
+
+    .footer-services ul {
+
+        list-style-type: none;
+    }
+
+    .footer-services h2 {
+
+        padding: 5% 0 5% 0;
+    }
+
+    .footer-services li {
+
+        font-size: 20px;
+    }
+
+    .eatatmest-footer {
+        margin-top: 0;
+    }
+
+    
+    /*    Index     */
+    /*    Index     */
+    /*    Index     */
+    /*    Index     */
+
+    .index-sticky-menu {
+        position: initial;
+    }
+    
+    .index-hide-logo {
+        display: block;
+    }
+    
+    .index-section-background {
+        background-image: url(../images/vynas.jpg);
+        background-size: cover;
+        background-repeat: no-repeat;
+        height: calc(100vh - 100px);
+        background-position: center;
+        display: block;
+    }
+    
+    .index-text-box {
+        color: rgb(255, 255, 255);
+        padding: 5%;
+        position: absolute;
+        bottom: 15%;
+    }
+    
+    .index-header {
+        font-size: 3rem;
+        
+    }
+    
+    .index-paragrapth {
+        font-size: 1.8rem;
+        padding: 0 0 0 10%;
+    }
+    
+    div.index-paragrapth p::before {
+        content: '';
+    }
+
+
+    /*    About     */
+    /*    About     */
+    /*    About     */
+    /*    About     */
+
+    .about-main-grid {
+        width: 100%;
+        background-color: white;
+        display: grid;
+        grid-template-columns: repeat(12, 1fr);
+        grid-template-areas:
+        'about-sec-one about-sec-one about-sec-one about-sec-one about-sec-two about-sec-two about-sec-two about-sec-two about-sec-three about-sec-three about-sec-three about-sec-three'
+        'ss about-sec-four about-sec-four about-sec-four about-sec-four about-sec-four about-sec-four about-sec-four about-sec-four about-sec-four about-sec-four sss'
+        'about-sec-five about-sec-five about-sec-five about-sec-five about-sec-five about-sec-five about-sec-six about-sec-six about-sec-six about-sec-six about-sec-six about-sec-six'
+        'ssss about-sec-seven about-sec-seven about-sec-seven about-sec-seven about-sec-seven about-sec-seven about-sec-seven about-sec-seven about-sec-seven about-sec-seven sssss'
+        ;
+        
+    }
+
+    .about-section-box {
+        width: 100%;
+        height: 50vh;
+    }
+    
+    .about-section-image-two {
+        background-image: url(../images/aboutTables.jpg);
+        background-size: cover;
+        background-position: center;
+        display: block;
+    }
+    
+    .about-section-image-three {
+        background-image: url(../images/aboutFancyTables.jpg);
+        background-size: cover;
+        background-position: center;
+        display: block;
+    }
+    
+    .about-section-image-five {
+        background-image: url(../images/aboutChop.jpeg);
+        background-size: cover;
+        background-position: center;
+        display: block;
+    }
+    
+    .about-article-box {
+        padding: 5%;
+    }
+    
+    .about-section-one {
+        grid-area: about-sec-one;
+    }
+    
+    .about-section-two {
+        grid-area: about-sec-two;
+    }
+
+    .about-section-three {
+        grid-area: about-sec-three;
+    }
+
+    .about-section-four {
+        grid-area: about-sec-four;
+    }
+
+    .about-section-five {
+        grid-area: about-sec-five;
+    }
+
+    .about-section-six {
+        grid-area: about-sec-six;
+    }
+
+    .about-section-seven {
+        grid-area: about-sec-seven;
+    }
+    
+    .about-header-text {
+        font-size: 3.5rem;
+        padding: 0 0 5% 0;
+    }
+    
+    .about-h2-font {
+        font-size: 2.5rem;
+        line-height: 1.6;
+        color: rgb(51, 51, 51);
+    
+    }
+    
+    .about-paragraph {
+        font-size: 1.8rem;
+        line-height: 1.6;
+        padding: 5% 0 5% 0;
+    }
+
+    /*    Menu      */
+    /*    Menu      */
+    /*    Menu      */
+    /*    Menu      */
+
+    .menu-main-grid {
+        width: 100%;
+        background-color: white;
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        
+        
+    }
+
+    .menus-boxsize {
+        width: 100%;
+        height: 44vh;
+        background-size: 100% 100%;
+        background-position: center;
+        background-repeat: no-repeat;
+        color: white;
+        display: grid;
+        place-items: end start;
+    }
+    
+    .menus-image-one {
+        background-image: url(../images/springPlate.jpg);
+    }
+    
+    .menus-image-two {
+        background-image: url(../images/summerPlate.jpg);
+    }
+    
+    .menus-image-three {
+        background-image: url(../images/autumnPlate.jpg);
+    }
+    
+    .menus-image-four {
+        background-image: url(../images/winterPlate.jpg);
+    }
+    
+    .menus-text-box {
+        font-size: 2rem;
+        padding: 0 0 5% 5%;
+        text-shadow: 0px 0px 22px black;
+    }
+    
+    .menus-anchor {
+        text-decoration: none;
+    }
+
+
+    /*    Spring    */
+    /*    Spring    */
+    /*    Spring    */
+    /*    Spring    */
+
+    .spring-background{
+        background-image:url(../images/springv2.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
+        padding: 5% 30%;
+        width: 100%;
+        
+    }
+
+    /*    Summer    */
+    /*    Summer    */
+    /*    Summer    */
+    /*    Summer    */
+
+    .summer-background{
+        background-image:url(../images/summerv2.jpg);
+        background-repeat: no-repeat;
+        background-size:cover;
+        padding: 5% 30%;
+        width: 100%;
+    }
+
+    /*    Autumn    */
+    /*    Autumn    */
+    /*    Autumn    */
+    /*    Autumn    */
+
+    .autumn-background{
+        background-image:url(../images/autumnv2.jpg);
+        background-repeat: no-repeat;
+        background-size:cover;
+        padding: 5% 30%;
+        width: 100%;
+    }
+    
+    /*    Winter    */
+    /*    Winter    */
+    /*    Winter    */
+    /*    Winter    */
+    
+    .winter-background{
+        background-image:url(../images/winter.jpg);
+        background-repeat: no-repeat;
+        background-size:cover;
+        padding: 5% 30%;
+        width: 100%;
+    }
+
+    /*    Events    */
+    /*    Events    */
+    /*    Events    */
+    /*    Events    */
+
+    .events-main-grid {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        
+    }
+
+    .events-boxsize {
+        height: 50vh;
+        background-size: cover;
+        background-position: center;
+        color: white;
+        display: grid;
+        place-items: end start;
+    }
+    
+    .events-image-one {
+        background-image: url(../images/weddingv2.jpg);
+    }
+    
+    .events-image-two {
+        background-image: url(../images/confirmation.jpg);
+    }
+
+    /*    Confirmation     */
+    /*    Confirmation     */
+    /*    Confirmation     */
+    /*    Confirmation     */
+
+    .confirmation-background{
+        background-image:url(../images/confirmation.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
+        padding: 5% 30%;
+        width: 100%;
+    }
+
+
+    /*    Wedding   */
+    /*    Wedding   */
+    /*    Wedding   */
+    /*    Wedding   */
+
+    .wedding-background{
+        background-image:url(../images/weddingv2.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
+        padding: 5% 30%;
+        width: 100%;
+    }
+
+
+    /*    Friday    */
+    /*    Friday    */
+    /*    Friday    */
+    /*    Friday    */
+
+    .eatatmest-main {
+        display:grid;
+        grid-template-columns: repeat(2, 1fr);
+        
+    }
+
+    .eatatmest-display {
+        display: none;
+    }
+    .eatatmest-sectionone {
+        display: flex;
+        flex: 1 1 0px;
+        height: 50vh;
+        width: 100%;
+    }
+    .eatatmest-articlethree {
+        margin:0;
+        padding: 10% 2% 2% 2%;
+        width: 50%;
+        background-color: #191C27;
+        color: white;
+        text-align: center;
+    }
+    .eatatmest-section-form {
+        height: 50vh;
+    }
+
+    .eatatmest-section-form form input {
+        margin-bottom: 2%;
+    }
+
+    .eatatmest-section-form h4 {
+        padding: 0;
+    }
+    input[type="email"] {
+        margin: 0;
+    }
+
+
+
+    .eatatmest-image-two {
+        height: 50vh;
+        background-image: url(../images/spiseHostSteak.jpg);
+        background-size: cover;
+        background-position: center;
+    }
+
+    /*    Contact   */
+    /*    Contact   */
+    /*    Contact   */
+    /*    Contact   */
+
+    
+
+    .contact-main-grid {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    .contact-section-one {
+        background-color: white;
+        place-items: center;
+        margin: 28px;
+        
+    }
+
+        /*adress*/
+
+    .contacts_info{
+        text-align: center;
+        padding: 5%;
+    }
+
+    .contacts_info h1{
+        font-size: 40px;
+        padding-top: 10%;
+    }
+
+    article.contacts_info div ul li {
+        list-style-type: none;
+        font-size: 2rem;
+    }
+
+    .map{
+        margin-top: 30px;
+        margin-right: 20px;
+        margin-bottom: 5%;
+        width: 100%;
+        
+    }
+
+    /*form*/
+
+    .form{
+        background-color: #191C27;
+        padding: 20px;
+        width: 100%;
+        
+    }
+
+    .askyou_form{
+        background-color:white;
+        margin: 8px;
+    }
+
+    .askyou_text{
+        color:black;
+        padding: 30px 30px;
+        font-size: 13px;
+        text-align: center;
+    }
+
+    .askyou_form h2{
+        font-size: 35px;
+    }
+
+    .form form input[type="submit"] {
+        width: 34%;
+        border: 2px solid white;
+        background-color: #191C27;
+        color: white;
+        border-radius: 20px;
+        height: 50px;
+    }
+
+    .form form input[type="submit"]:hover {
+        border: 2px solid #191C27;
+        background-color: #921C1C;
+    }
+
+    .form form input[type="reset"] {
+        width: 34%;
+        border: 2px solid #191C27;
+        background-color: white;
+        color: #191C27;
+        border-radius: 20px;
+        margin-left: 2%;
+        height: 50px;
+    }
+
+    .form form input[type="reset"]:hover {
+        border: 2px solid #191C27;
+        background-color: #921C1C;
+        color: white;
+    }
+
+    .fill{
+        height: 25vh;
+        margin-top: 25px;
+    }
+
+    input[type="text"]{
+        width: 100%;
+        height: 50%;
+        background-color: #f0f0f0;
+        text-align: center;
+        font-size: 15px;
+        border-style: none;
+    }
+
+    textarea {
+        width: 100%;
+        height: 20vh;
+        background-color: #f0f0f0;
+        font-size: 15px;
+        border-style: none;
+        resize: none;
+    }
+
+    
+
+    .contact-section-image {
+        background-image: url(../images/contactImage.jpg);
+        background-size: cover;
+        background-position: center;
+        height: 53vh;
+        margin: 28px;
+    }
+
+    .eatatmest-section-form form input[type="submit"]:hover {
+        border: 2px solid #191C27;
+        background-color: #921C1C;
+        color: white;
+    }
+
+    .eatatmest-section-form form input[type="reset"]:hover {
+        border: 2px solid #191C27;
+        background-color: #921C1C;
+        color: white;
+    }
+
+
+}
+
+
+@media screen and (min-width: 1200px) {
+    
+    
+}
+
+@media screen and (min-width: 1600px) {
+
+    
+}
